@@ -27,3 +27,4 @@ dt = pd.DataFrame(data[1:], columns=data[0][:12])
 df = dd.from_pandas(dt,npartitions=1)
 
 df.to_csv('./Extracted_data/data-*.csv')
+#simply
