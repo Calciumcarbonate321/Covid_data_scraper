@@ -49,7 +49,7 @@ introduction.place(relx=0.5,
 info=tk.Label(text='Please select your country from the drop box given below:')
 info.place(relx=0.75,
            rely=0.25,
-           anchor="ne"
+           anchor="ne",
 )
 
 value=tk.StringVar()
@@ -157,7 +157,7 @@ def data_obtaining():
 
 
 casesreported_l=tk.Label(textvariable=casesreported)
-casesreported_l.place(relx=0.5,rely=0.4,anchor="ne")
+casesreported_l.place(relx=0.5,rely=0.50,anchor="ne")
 
 casesreportedtoday_l=tk.Label(textvariable=casesreportedtoday)
 casesreportedtoday_l.place(relx=0.5,rely=0.55,anchor="ne")
