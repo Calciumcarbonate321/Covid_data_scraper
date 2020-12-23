@@ -98,7 +98,6 @@ df.to_csv('extracted_data*.csv')
 
 def data_obtaining():
     user_country=user_countr.get()
-    print(user_country)
     data_csv=list(csv.reader('extracted_data0.csv'))
     data_file='extracted_data0.csv'
     with open(data_file,'r') as covid_database:
